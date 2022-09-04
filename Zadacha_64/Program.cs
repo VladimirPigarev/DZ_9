@@ -17,26 +17,3 @@ string OutputNaturalNumbers(int n, int m)
     if (n == m || n < m) return $"{m}";
     else return $"{n} " + OutputNaturalNumbers(n-1,m);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// int m = Convert.ToInt32(ReadLine());
-// WriteLine("Введите значение M");
-// int n = Convert.ToInt32(ReadLine());
-// WriteLine(OutputNaturalNumbers(m, n));
-
-// string OutputNaturalNumbers(int m1, int n1)
-// {
-//     return (m1==n1 || n1 < m1)? "{m1}":OutputNaturalNumbers(m1-1, n1) + n1;
-// }
